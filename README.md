@@ -1,12 +1,12 @@
 # alphasync
 
-AlphaSync (https://alphasync.stjude.org) is an updated AlphaFold structure database synchronized with UniProt.
+AlphaSync (https://alphasync.stjude.org) is an updated AlphaFold structure database synchronised with UniProt.
 
-AlphaSync predicts new structures to stay up-to-date with the latest UniProt release, and it additioinally enhances all structures with residue-level data such as solvent accessibility and atom-level non-covalent contacts. A preprint describing AlphaSync should appear on bioRxiv soon.
+AlphaSync predicts new structures to stay up-to-date with the latest UniProt release, and it additionally enhances all structures with residue-level data such as solvent accessibility and atom-level non-covalent contacts. A preprint describing AlphaSync should appear on bioRxiv soon.
 
 ## Please note
 
-This repo provides the structure prediction and processing pipeline behind AlphaSync. It is not yet optimized for local deployment. It currently requires a local SQL server to be set up and is optimized for an LSF HPC environment with a Singularity container of AlphaFold 2. We have tentative plans for a more portable Docker version in future.
+This repo provides the structure prediction and processing pipeline behind AlphaSync. It is not yet optimised for local deployment. It currently requires a local SQL server to be set up and is optimised for an LSF HPC environment with a Singularity container of AlphaFold 2. We have tentative plans for a more portable Docker version in future.
 
 ## Initial setup
 - Requires Lahuta, which is not yet publicly released (but should be soon) (https://bisejdiu.github.io/lahuta)
