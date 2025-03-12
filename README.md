@@ -15,7 +15,7 @@ This repo provides the structure prediction and processing pipeline behind Alpha
 - Update blang_mysql.py with SQL connection details
 - Create tables in sql/sql_create_statements.sql and import .sql files
 
-## To use
+## To update
 - Run run.py
     - Downloads structures from AlphaFold Protein Structure Database (AFDB) via FTP and GCS
     - Parses structures
