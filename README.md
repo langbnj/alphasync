@@ -2,7 +2,7 @@
 
 AlphaSync (https://alphasync.stjude.org) is an updated AlphaFold structure database synchronised with UniProt.
 
-AlphaSync predicts new structures to stay up-to-date with the latest UniProt release, and it additionally enhances all structures with residue-level data such as solvent accessibility and atom-level non-covalent contacts. A preprint describing AlphaSync should appear on bioRxiv soon.
+AlphaSync predicts new structures to stay up-to-date with the latest UniProt release, and it additionally enhances all structures with residue-level data such as solvent accessibility and atom-level non-covalent contacts. A preprint manuscript describing AlphaSync is available at https://www.biorxiv.org/content/10.1101/2025.03.12.642845v1.
 
 ## Please note
 
