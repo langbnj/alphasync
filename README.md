@@ -31,4 +31,4 @@ This repository provides the structure prediction and processing pipeline behind
     - Repeat for new UniProt releases
 
 ## Acknowledgements
-The code in input/alphasync/alphafold_tools is modified slightly from https://github.com/google-deepmind/alphafold, licensed under the Apache 2.0 license.
+The code in input/alphasync/alphafold_tools is modified slightly from https://github.com/google-deepmind/alphafold, licensed under the Apache 2.0 license. The main change is a split into CPU- and GPU-based steps for more efficient parallelisation.
