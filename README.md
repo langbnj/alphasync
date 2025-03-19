@@ -9,7 +9,7 @@ AlphaSync predicts new structures to stay up-to-date with the latest UniProt rel
 This repository provides the structure prediction and processing pipeline behind AlphaSync. It is not yet optimised for local deployment. It currently requires a local SQL server to be set up and is optimised for an LSF HPC environment with a Singularity container of AlphaFold 2. We have tentative plans for a more portable Docker version in future.
 
 ## Initial setup
-- Requires Lahuta, which is not yet publicly released (but should be soon) (https://bisejdiu.github.io/lahuta)
+- Requires Lahuta for residue-residue contacts, which is not yet publicly released (but should be soon) (https://bisejdiu.github.io/lahuta)
 - Install Python packages (see individual scripts for imports)
 - Install DSSP to make sure mkdssp is available (https://github.com/PDB-REDO/dssp)
 - Update blang_mysql.py with SQL connection details
